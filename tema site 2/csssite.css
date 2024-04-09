@@ -1,12 +1,9 @@
 *{
     padding: 0;
-    margin: 0;
+
  box-sizing: border-box;
 }
-body{
-    overflow-y: scroll;
-    height: 100%;
-}
+
 header{
     z-index: 2;
     position: fixed;
@@ -45,13 +42,11 @@ a{
 .container{
     
     position: relative;
-    top: 100px;
-    left: 50%;
-    width: 1200px;
-    margin-top: 50px;
-    margin-left: -600px;
+   width: 1200px;
+top:200px;
+    margin:auto;
     border: 3px solid orangered;
-padding: 20px;
+
 
 }
 .content-box{
